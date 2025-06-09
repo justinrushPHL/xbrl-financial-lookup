@@ -6,16 +6,15 @@ and their corresponding XBRL tags across SEC filings.
 
 File Structure:
 ├── main_app.py (this file)
+├── requirements.txt
 ├── database/
 │   ├── db_manager.py
 │   └── financial_data.db
 ├── parsers/
-│   ├── edgar_parser.py
-│   └── xbrl_processor.py
-├── utils/
-│   ├── search_engine.py
-│   └── chart_generator.py
-└── requirements.txt
+│   └── edgar_parser.py
+└── utils/
+    ├── search_engine.py
+    └── chart_generator.py
 """
 
 import streamlit as st
